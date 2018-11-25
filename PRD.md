@@ -1,4 +1,4 @@
-•Target release:
+•Target release:coming soon
 
 •Epic: 做一个关于人脸识别的毕业相册，可以查看相册中所有人的简单的资料
 
