@@ -1,35 +1,35 @@
-•Target release:coming soon
+• Target release:coming soon
 
-•Epic: 做一个简单的人脸识别的网页，可以查看照片中所有人的简单的信息
+• Epic: 做一个车型识别的APP,检测用户上传的车辆图片,识别所属车型,包括车辆品牌及具体型号、颜色、年份。
 
-•Document Status: 未起头
+• Document Status: 进行中
 
-•Document owner: 覃沛聪
+• Document owner: 覃沛聪
 
-•Designer: 覃沛聪
+• Designer: 覃沛聪
 
-•Developer:覃沛聪
+• Developer:覃沛聪
 
-•QA: 覃沛聪
+• QA: 覃沛聪
 
-•Goals: 可以在照片查看所有人的各种简单信息
+• Goals: 简化用户识别车型的操作
 
-•Background and strategic fit: 人脸识别有非常大的用处，方便他们不清楚时可以点击查看
+• Background and strategic fit: 中国开始逐渐步入全民小康时代,每家每户必不可少的就是汽车,做一个可以随时随地识别车型的app,方便用户识别车型购买汽车。
 
-•Assumptions: 用户在手机上看照片时，点击其中一位同学可以查看简单的信息
+• Assumptions: 用户会在街上拍下汽车的照片或者上网搜索汽车照片上传到app识别车型
 
-•Requirements: 
+• Requirements: 
 
 | # | Title | User story | Importance | Note |
 | ------ | ------ | ------ | ------ | ------ |
-| 1 |  人脸识别  | 在照片中进行人脸识别 | 非常重要 |   |
+| 1 |  车型识别  | 用app识别车型 | 非常重要 |   |
 
- •User interaction and design :用户点击照片中的头像即在头像旁边出现简单的信息
+ • User interaction and design :
  
- •Questions: 
+ • Questions: 
  
  | question | outcome |
  | ------ | ------ |
- | 照片中头像众多，难以确保点击的正确 | 允许照片放大缩小 |
+ | 车型识别有图片要求 | 将图片要求标注在app里 |
  
-•Not doing: 
+• Not doing: 
