@@ -24,7 +24,7 @@
 | ------ | ------ | ------ | ------ | ------ |
 | 1 |  车型识别  | 用app识别车型 | 非常重要 |   |
 
- • User interaction and design :![Alt text](car.png)
+ • User interaction and design :![Alt text](images/car.png)
  
  • Questions: 
  
