@@ -2,6 +2,7 @@
 
 请求代码示例：
 
+<pre><code>
 # encoding:utf-8
 import base64
 import urllib
@@ -28,11 +29,12 @@ response = urllib2.urlopen(request)
 content = response.read()
 if content:
     print content
-
+</code></pre>
 
 
 返回示例：
 
+<pre><code>
 HTTP/1.1 200 OK
 x-bce-request-id: 73c4e74c-3101-4a00-bf44-fe246959c05e
 Cache-Control: no-cache
@@ -78,3 +80,4 @@ Content-Type: application/json;charset=UTF-8
 	}],
 	"color_result": "颜色无法识别"
 }
+</code></pre>
