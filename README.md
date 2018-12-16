@@ -56,28 +56,39 @@
  
  ## • 人工智能概率性
 •  搜索得出的结果概率超过90%的基本上是可信的
+
  ![Alt text](images/1.png)
 
-•  汽车模型如果足够逼真，也可以成功识别。
+•  汽车模型如果足够逼真，也可以成功识别
+
  ![Alt text](images/2.png)
  
-•  概念车的识别效果，就不那么准确。
+•  概念车的识别效果，就不那么准确
+
  ![Alt text](images/3.png)
  
-•  古董车的识别结果，不可信。
+•  古董车的识别结果，不可信
+
  ![Alt text](images/4.png)
  
-•  MINI车型和改装车型，难以识别，因为其样式过于多样化了。
+•  MINI车型和改装车型，难以识别，因为其样式过于多样化了
+
  ![Alt text](images/5.png)
+ 
  ![Alt text](images/6.png)
  
-•  电动汽车不能被当成汽油汽车对待。
+•  电动汽车不能被当成汽油汽车对待
+
  ![Alt text](images/7.png)
  
 •  不能识别火车、两轮车和三轮车
+
  ![Alt text](images/8.png)
+ 
  ![Alt text](images/9.png)
+ 
  ![Alt text](images/10.png)
+ 
  ![Alt text](images/11.png)
  
  ## • 使用分析比较
