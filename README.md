@@ -38,7 +38,7 @@
  
  | question | outcome |
  | ------ | ------ |
- | 车型识别有图片要求 | 将图片要求标注在app里 |
+ | 上传的车辆图片有要求 | 将图片要求标注在app里 |
  
  ## • Not doing: 
  识别车型的同时可以返回车辆价格的结果，各种车店的位置和价格
@@ -56,41 +56,29 @@
  
  ## • 人工智能概率性
 •  搜索得出的结果概率超过90%的基本上是可信的
-
  ![Alt text](images/1.png)
 
-•  汽车模型如果足够逼真，也可以成功识别
-
+•  汽车模型如果足够逼真，也可以成功识别。
  ![Alt text](images/2.png)
  
-•  概念车的识别效果，就不那么准确
-
+•  概念车的识别效果，就不那么准确。
  ![Alt text](images/3.png)
  
-•  古董车的识别结果，不可信
-
+•  古董车的识别结果，不可信。
  ![Alt text](images/4.png)
  
-•  MINI车型和改装车型，难以识别，因为其样式过于多样化了
-
+•  MINI车型和改装车型，难以识别，因为其样式过于多样化了。
  ![Alt text](images/5.png)
- 
  ![Alt text](images/6.png)
  
-•  电动汽车不能被当成汽油汽车对待
-
+•  电动汽车不能被当成汽油汽车对待。
  ![Alt text](images/7.png)
  
 •  不能识别火车、两轮车和三轮车
-
  ![Alt text](images/8.png)
- 
  ![Alt text](images/9.png)
- 
  ![Alt text](images/10.png)
- 
  ![Alt text](images/11.png)
- 
  
  ## • 使用分析比较
 • VIN码查询：这是一个非常成熟的车辆识别API，根据VIN码准确定型，获取保险车辆列表(含配置信息) 包含:车型代码，唯一标识、车型名称、品牌名称、车系名称、车组名称、排量、发动机描述、发动机型号、进气形式、汽缸排列形式等等，这么多专业的配置信息并不是本app所必需的，最有核心的价值是车辆的品牌型号，因为大多数用户都不会过多关注这么多专业的配置名词。收费的价格是0.1元/次，我认为性价比是不值得的
@@ -107,14 +95,14 @@
  调用失败不计费，我认为百度AI的车型识别API性价比是非常高，非常适合本app的核心价值观念
  
 ## • 使用后风险报告
-• API市场竞争程度：市场竞争较小，市面上很少关于车型识别的应用程序
-• 可替代的程序库：可以自行建立车辆信息的数据库
+• API市场竞争程度：市场竞争较小，市面上很少关于车型识别的应用程序，有百度开发的识别车型的微信小程序
+
+• 可替代的程序库：可以自行建立车辆信息的数据库，不需要再用百度识别车型API
 
 ## • 代码展示：
 请求代码示例：
 
-```
-# encoding:utf-8
+<pre><code># encoding:utf-8
 import base64
 import urllib
 import urllib2
@@ -136,11 +124,12 @@ response = urllib2.urlopen(request)
 content = response.read()
 if content:
     print content
+</code></pre>
 
-```
+
 
 返回示例：
-```
+<pre><code>
 HTTP/1.1 200 OK
 x-bce-request-id: 73c4e74c-3101-4a00-bf44-fe246959c05e
 Cache-Control: no-cache
@@ -185,4 +174,8 @@ Content-Type: application/json;charset=UTF-8
 		"year": "2004-2015"
 	}],
 	"color_result": "颜色无法识别"
-```
+</code></pre>
+
+## • 共享原型文档
+### • [代码展示](https://github.com/Butterrrr/API_ML_AI/blob/master/code%20display.md)
+### • [百度车型识别API文档](http://ai.baidu.com/docs#/ImageClassify-API/fe686c3a)
