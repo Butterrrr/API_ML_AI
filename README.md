@@ -3,7 +3,7 @@
  | target release | 01/01/2019 |
  | ------ | ------ |
  | epic | 检测车辆图片可以识别出车型的app |
- | Document Status | 进行中 |
+ | Document Status | 完成 |
  | Document owner | 覃沛聪 |
  | Designer | 覃沛聪 |
  | Developer | 覃沛聪 |
